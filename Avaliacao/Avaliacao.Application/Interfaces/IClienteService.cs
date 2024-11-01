@@ -1,4 +1,5 @@
 ﻿using Avaliacao.Application.Dtos;
+using Avaliacao.Domain.Entities;
 
 namespace Avaliacao.Application.Interfaces
 {
@@ -9,6 +10,8 @@ namespace Avaliacao.Application.Interfaces
         Task<ClienteDto> Update(ClienteDto cliente);
         Task<ClienteDto> Delete(int Id);
         Task<IEnumerable<ClienteDto>> ListAll();
+        Task<IEnumerable<ClienteDto>> ListClienteEnderecos();
+        Task<ClienteDto> ClienteById(int Id);
 
     }
 }

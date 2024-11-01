@@ -1,6 +1,5 @@
 ﻿using Avaliacao.Application.Dtos;
 using Avaliacao.Application.Interfaces;
-using Avaliacao.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Avaliacao.WebUI.Controllers;
@@ -22,7 +21,7 @@ public class ClienteController : Controller
     [HttpGet]
     public async Task<IActionResult> Index()
     {
-        var clientes = _clienteService.ListAll();
+        var clientes = _clienteService.ListClienteEnderecos();
         return View(await clientes);
     }
     [HttpGet]
@@ -36,7 +35,7 @@ public class ClienteController : Controller
         if (id == null)
             return NotFound();
 
-        var clienteDto = await _clienteService.Read(id);
+        var clienteDto = await _clienteService.ClienteById(id);
 
         if (clienteDto == null) return NotFound();
 

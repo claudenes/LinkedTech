@@ -10,6 +10,7 @@ namespace Avaliacao.Infra.Data.Mapping
         {
             builder.ToTable("Cliente");
             builder.HasKey(x => x.Id);
+            builder.HasMany(x => x.Enderecos);
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
                 .HasColumnName("Id")

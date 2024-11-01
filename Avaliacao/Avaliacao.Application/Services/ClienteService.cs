@@ -41,5 +41,13 @@ namespace Avaliacao.Application.Services
         {
             return _mapper.Map<ClienteDto>(_repository.Update(_mapper.Map<Cliente>(cliente)));
         }
+        public async Task<IEnumerable<ClienteDto>> ListClienteEnderecos()
+        {
+            return _mapper.Map<IEnumerable<ClienteDto>>(_repository.ListClienteEnderecos());
+        }
+        public async Task<ClienteDto> ClienteById(int Id)
+        {
+            return _mapper.Map<ClienteDto>(_repository.ClienteById(Id));
+        }
     }
 }
