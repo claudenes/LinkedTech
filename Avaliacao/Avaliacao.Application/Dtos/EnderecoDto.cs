@@ -12,7 +12,7 @@ namespace Avaliacao.Application.Dtos
         public string Uf { get; set; }
         public DateTime DataCadastro { get; set; }
 
-        [JsonIgnore(Condition = JsonIgnoreCondition.Always)]
-        public ClienteDto? Cliente { get; set; }
+        //[JsonIgnore(Condition = JsonIgnoreCondition.Always)]
+        //public ClienteDto? Cliente { get; set; }
     }
 }

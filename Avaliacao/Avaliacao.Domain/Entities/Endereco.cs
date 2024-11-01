@@ -12,7 +12,7 @@ namespace Avaliacao.Domain.Entities
         public string Uf { get; set; }
         public DateTime DataCadastro { get; set; }
 
-        [JsonIgnore(Condition = JsonIgnoreCondition.Always)]
-        public Cliente? Cliente { get; set; }
+        //[JsonIgnore(Condition = JsonIgnoreCondition.Always)]
+        //public Cliente? Cliente { get; set; }
     }
 }
