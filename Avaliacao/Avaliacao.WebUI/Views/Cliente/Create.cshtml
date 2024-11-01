@@ -1,0 +1,73 @@
+﻿@model Avaliacao.Application.Dtos.ClienteDto
+
+<h2>Registre novo Cliente</h2>
+
+<form asp-action="Create">
+
+    <div class="form-horizontal">
+
+        <hr />
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Cpf" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Cpf" class="form-control" />
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DataNascimento" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="DataNascimento" class="form-control" />
+                <span asp-validation-for="DataNascimento" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="UfNascimento" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="UfNascimento" class="form-control" />
+                <span asp-validation-for="UfNascimento" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Enderecos.FirstOrDefault().Logradouro" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Enderecos.FirstOrDefault().Logradouro" class="form-control" />
+                <span asp-validation-for="Enderecos.FirstOrDefault().Logradouro" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Enderecos.FirstOrDefault().Bairro" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Enderecos.FirstOrDefault().Bairro" class="form-control" />
+                <span asp-validation-for="Enderecos.FirstOrDefault().Bairro" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Enderecos.FirstOrDefault().Cidade" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Enderecos.FirstOrDefault().Cidade" class="form-control" />
+                <span asp-validation-for="Enderecos.FirstOrDefault().Cidade" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Enderecos.FirstOrDefault().Uf" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Enderecos.FirstOrDefault().Uf" class="form-control" />
+                <span asp-validation-for="Enderecos.FirstOrDefault().Uf" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-info">Back to List</a>
+            </div>
+        </div>
+    </div>
+</form>
