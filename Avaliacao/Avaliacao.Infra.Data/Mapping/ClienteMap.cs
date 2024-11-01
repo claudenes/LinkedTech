@@ -9,18 +9,31 @@ namespace Avaliacao.Infra.Data.Mapping
         public void Configure(EntityTypeBuilder<Cliente> builder) 
         {
             builder.ToTable("Cliente");
-            //builder.HasKey(x => x.Codigo);
-            //builder.Property(x => x.Codigo)
-            //    .ValueGeneratedOnAdd()
-            //    .HasColumnName("CodAu")
-            //    .HasColumnType("Int")
-            //    .IsRequired();
-            //builder.Property(x => x.Nome)
-            //    .HasColumnName("Nome")
-            //    .HasColumnType("VARCHAR")
-            //    .HasMaxLength(40)
-            //    .IsRequired();
-            
+            builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id)
+                .ValueGeneratedOnAdd()
+                .HasColumnName("Id")
+                .HasColumnType("Int")
+                .IsRequired();
+            builder.Property(x => x.Cpf)
+                .HasColumnName("Cpf")
+                .HasColumnType("VARCHAR")
+                .HasMaxLength(11)
+                .IsRequired();
+            builder.Property(x => x.DataNascimento)
+                .HasColumnName("DataNascimento")
+                .HasColumnType("DATETIME")
+                .IsRequired();
+            builder.Property(x => x.UfNascimento)
+               .HasColumnName("UfNascimento")
+               .HasColumnType("VARCHAR")
+               .HasMaxLength(2)
+               .IsRequired();
+            builder.Property(x => x.DataCadastro)
+               .HasColumnName("DataCadastro")
+               .HasColumnType("DATETIME")
+               .IsRequired();
+
         }
     }
 }
