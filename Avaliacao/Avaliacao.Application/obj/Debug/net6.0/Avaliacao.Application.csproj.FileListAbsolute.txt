@@ -1,0 +1,15 @@
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\bin\Debug\net6.0\Avaliacao.Application.deps.json
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\bin\Debug\net6.0\Avaliacao.Application.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\bin\Debug\net6.0\Avaliacao.Application.pdb
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\bin\Debug\net6.0\Avaliacao.Domain.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\bin\Debug\net6.0\Avaliacao.Domain.pdb
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.csproj.AssemblyReference.cache
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.AssemblyInfoInputs.cache
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.AssemblyInfo.cs
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.csproj.CopyComplete
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\refint\Avaliacao.Application.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\Avaliacao.Application.pdb
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Application\obj\Debug\net6.0\ref\Avaliacao.Application.dll

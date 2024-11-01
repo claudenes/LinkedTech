@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Avaliacao.Infra.Data/1.0.0": {
+        "dependencies": {
+          "Avaliacao.Application": "1.0.0",
+          "Avaliacao.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Avaliacao.Infra.Data.dll": {}
+        }
+      },
+      "Avaliacao.Application/1.0.0": {
+        "dependencies": {
+          "Avaliacao.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Avaliacao.Application.dll": {}
+        }
+      },
+      "Avaliacao.Domain/1.0.0": {
+        "runtime": {
+          "Avaliacao.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Avaliacao.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Avaliacao.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Avaliacao.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

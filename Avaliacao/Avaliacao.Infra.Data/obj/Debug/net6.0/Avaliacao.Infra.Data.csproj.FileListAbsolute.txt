@@ -1,0 +1,17 @@
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\bin\Debug\net6.0\Avaliacao.Infra.Data.deps.json
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\bin\Debug\net6.0\Avaliacao.Infra.Data.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\bin\Debug\net6.0\Avaliacao.Infra.Data.pdb
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\bin\Debug\net6.0\Avaliacao.Application.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\bin\Debug\net6.0\Avaliacao.Domain.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\bin\Debug\net6.0\Avaliacao.Application.pdb
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\bin\Debug\net6.0\Avaliacao.Domain.pdb
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.csproj.AssemblyReference.cache
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.AssemblyInfo.cs
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.csproj.CopyComplete
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\refint\Avaliacao.Infra.Data.dll
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\Avaliacao.Infra.Data.pdb
+C:\Projetos\LinkedTech\Avaliacao\Avaliacao.Infra.Data\obj\Debug\net6.0\ref\Avaliacao.Infra.Data.dll
