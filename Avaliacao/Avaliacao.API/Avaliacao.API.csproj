@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Avaliacao.Application\Avaliacao.Application.csproj" />
     <ProjectReference Include="..\Avaliacao.Domain\Avaliacao.Domain.csproj" />
     <ProjectReference Include="..\Avaliacao.Infra.IoC\Avaliacao.Infra.IoC.csproj" />

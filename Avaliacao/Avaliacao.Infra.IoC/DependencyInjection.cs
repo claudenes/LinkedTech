@@ -20,7 +20,7 @@ namespace Avaliacao.Infra.IoC
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
             services.AddAutoMapper(typeof(DomainToDtoMappingProfile));
 
-            var myhandlers = AppDomain.CurrentDomain.Load("DesafioTJ.Application");
+            var myhandlers = AppDomain.CurrentDomain.Load("Avaliacao.Application");
 
             return services;
         }
